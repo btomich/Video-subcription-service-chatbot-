@@ -1,0 +1,16 @@
+{
+    "name": "CPSC326 Bot",
+    "description": "",
+    "services": [
+        {
+            "type": "endpoint",
+            "endpoint": "http://localhost:3978/api/messages",
+            "name": "brandon",
+            "id": "143"
+        }
+    ],
+    "padlock": "",
+    "version": "2.0",
+    "path": "C:\\Users\\Brandon Tomich\\source\\repos\\mediaStreamingChatbot\\mediaStreamingChatbot\\CPSC326 Bot.bot",
+    "overrides": null
+}

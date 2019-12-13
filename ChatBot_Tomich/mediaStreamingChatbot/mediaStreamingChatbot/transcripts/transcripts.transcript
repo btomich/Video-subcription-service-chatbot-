@@ -1,0 +1,123 @@
+[
+  {
+    "type": "conversationUpdate",
+    "membersAdded": [
+      {
+        "id": "",
+        "name": "User"
+      },
+      {
+        "id": "45396210-04e2-11ea-8ec6-5583c6edd30a",
+        "name": "Bot"
+      }
+    ],
+    "channelId": "emulator",
+    "conversation": {
+      "id": "6402bdd0-04e3-11ea-8ec6-5583c6edd30a|livechat"
+    },
+    "id": "64072aa1-04e3-11ea-a981-25aa3db82f03",
+    "localTimestamp": "2019-11-11T16:28:47-08:00",
+    "recipient": {
+      "id": "45396210-04e2-11ea-8ec6-5583c6edd30a",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "timestamp": "2019-11-12T00:28:47.050Z",
+    "from": {
+      "id": "",
+      "name": "User"
+    },
+    "locale": "en-US",
+    "serviceUrl": "http://localhost:49963"
+  },
+  {
+    "type": "message",
+    "serviceUrl": "http://localhost:49963",
+    "channelId": "emulator",
+    "from": {
+      "id": "45396210-04e2-11ea-8ec6-5583c6edd30a",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "6402bdd0-04e3-11ea-8ec6-5583c6edd30a|livechat"
+    },
+    "recipient": {
+      "id": "",
+      "role": "user"
+    },
+    "text": "Hello and welcome!",
+    "speak": "<speak version='1.0' xmlns='https://www.w3.org/2001/10/synthesis' xml:lang='en-US'>\r\n              <voice name='Microsoft Server Speech Text to Speech Voice (en-US, JessaRUS)'>Hello and welcome!</voice></speak>",
+    "inputHint": "acceptingInput",
+    "attachments": [],
+    "entities": [],
+    "replyToId": "64072aa1-04e3-11ea-a981-25aa3db82f03",
+    "id": "640ef2d0-04e3-11ea-a981-25aa3db82f03",
+    "localTimestamp": "2019-11-11T16:28:47-08:00",
+    "timestamp": "2019-11-12T00:28:47.101Z",
+    "locale": "en-US"
+  },
+  {
+    "text": "hello",
+    "textFormat": "plain",
+    "type": "message",
+    "channelData": {
+      "clientActivityID": "1573518566189vsyogqg4bc9",
+      "clientTimestamp": "2019-11-12T00:29:26.189Z"
+    },
+    "channelId": "emulator",
+    "from": {
+      "id": "r_1573518527",
+      "name": "User",
+      "role": "user"
+    },
+    "locale": "en-US",
+    "timestamp": "2019-11-12T00:29:26.192Z",
+    "entities": [
+      {
+        "requiresBotState": true,
+        "supportsListening": true,
+        "supportsTts": true,
+        "type": "ClientCapabilities"
+      }
+    ],
+    "conversation": {
+      "id": "6402bdd0-04e3-11ea-8ec6-5583c6edd30a|livechat"
+    },
+    "id": "7b5bc300-04e3-11ea-a981-25aa3db82f03",
+    "localTimestamp": "2019-11-11T16:29:26-08:00",
+    "recipient": {
+      "id": "45396210-04e2-11ea-8ec6-5583c6edd30a",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "serviceUrl": "http://localhost:49963"
+  },
+  {
+    "type": "message",
+    "serviceUrl": "http://localhost:49963",
+    "channelId": "emulator",
+    "from": {
+      "id": "45396210-04e2-11ea-8ec6-5583c6edd30a",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "6402bdd0-04e3-11ea-8ec6-5583c6edd30a|livechat"
+    },
+    "recipient": {
+      "id": "",
+      "role": "user"
+    },
+    "text": "Echo: hello",
+    "speak": "<speak version='1.0' xmlns='https://www.w3.org/2001/10/synthesis' xml:lang='en-US'>\r\n              <voice name='Microsoft Server Speech Text to Speech Voice (en-US, JessaRUS)'>Echo: hello</voice></speak>",
+    "inputHint": "acceptingInput",
+    "attachments": [],
+    "entities": [],
+    "replyToId": "7b5bc300-04e3-11ea-a981-25aa3db82f03",
+    "id": "7b6a1ae0-04e3-11ea-a981-25aa3db82f03",
+    "localTimestamp": "2019-11-11T16:29:26-08:00",
+    "timestamp": "2019-11-12T00:29:26.286Z",
+    "locale": "en-US"
+  }
+]
